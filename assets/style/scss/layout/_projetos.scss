@@ -1,0 +1,17 @@
+.portifolio{
+    height: 90vh;
+    display: flex;
+    color: #fff;
+    margin-left: 10rem;
+    flex-direction: column;
+
+    &_projetos{
+        display: flex;
+        justify-content: space-around;
+        & .projeto{
+            background-color:dimgrey;
+            width: 20rem;
+            height: 25rem;
+        }
+    }
+}

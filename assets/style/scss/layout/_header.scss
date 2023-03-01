@@ -1,0 +1,22 @@
+header {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    header{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background-color: #140d35;
+        flex-direction: column;
+        height: 100vh;
+        width: 8rem;
+        a {
+            color: #fff;
+            font-size: 1.50rem;
+            text-decoration: none;
+            margin: 31px 15px;
+        }
+    }
+    
+}
