@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-.apresentacao {
+#apresentacao {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ body {
 }
 
 @media screen and (min-width: 900px) {
-    .apresentacao {
+    #apresentacao {
         flex-direction: row-reverse;
     }
 }
