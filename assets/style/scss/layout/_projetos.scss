@@ -1,7 +1,7 @@
 #portifolio{
     height: 90vh;
     display: flex;
-    color: #fbd9f5;
+    color: #ebd9fb;
     margin-left: 10rem;
     flex-direction: column;
     &_projetos{
@@ -11,7 +11,7 @@
             background-color: #140d35d1;
             width: 20rem;
             height: 20rem;
-            border-radius: 2rem;
+            border-radius: 1rem;
             padding: 2rem;
             &-topo{
                 display: flex;
