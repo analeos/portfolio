@@ -1,17 +1,46 @@
 #portifolio{
     height: 90vh;
     display: flex;
-    color: #fff;
+    color: #fbd9f5;
     margin-left: 10rem;
     flex-direction: column;
-
     &_projetos{
         display: flex;
-        justify-content: space-around;
+        // justify-content: space-around;
         & .projeto{
-            background-color:dimgrey;
+            background-color: #140d35d1;
             width: 20rem;
-            height: 25rem;
-        }
-    }
+            height: 20rem;
+            border-radius: 2rem;
+            padding: 2rem;
+            &-topo{
+                display: flex;
+                justify-content: space-between;
+            }
+            &-pasta{
+                img {
+                    width: 3.5rem;
+                }
+            }
+            &-links{
+                a{
+                    img{
+                        width: 2rem;
+                        margin: 5px;
+                    }
+                }
+            }
+            &-titulo{
+                p{
+                    font-size: 1.3rem;
+                }
+
+            }
+            & .ferramentas{
+                position: relative;
+                top: 4rem;
+                color: #fbd9f59e;
+            }
+        } 
+    } 
 }

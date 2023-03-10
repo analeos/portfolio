@@ -1,14 +1,14 @@
 #sobre{
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #fbd9f5;
     margin-left: 10rem;
     flex-direction: column;
     &_texto{
         display: flex;
         flex-direction: column;
         p{
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             width: 80%;
         }
     }
@@ -22,7 +22,7 @@
         font-family: 'Droid Sans', sans-serif;
         &:before {
           content: '';
-          position: absolute  ;
+          position: absolute;
           top:0px;
           left: 50.4%;
           bottom:0px;
@@ -40,10 +40,11 @@
             margin-top:-60px;
           }
           .title {
-            font-size:32px;
+            font-size: 2.5rem;
+            font-weight: bold;
             margin-bottom:12px;
             position: relative;
-            color:#fff;
+            color:#fbd9f5;
             &:before {
               content: '';
               position: absolute;
@@ -60,13 +61,14 @@
             &.big:before {
               width:24px;
               height:24px;
-              transform:translate(8px,-50%);
+              transform:translate(8px,-130%);
             }
           }
           .body {
-            color:#aaa;
+            color:#fbd9f5;
             p {
-              line-height:1.4em;
+              line-height:2rem;
+              font-size: 1.5rem;
             }
           }
           &:nth-child(2n) {
