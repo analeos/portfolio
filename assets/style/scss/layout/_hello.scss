@@ -52,9 +52,41 @@ body {
     }  
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     #apresentacao {
-        flex-direction: row-reverse;
+
+        text-align: center;
+        & img {
+
+        }
+    
+        &_texto {
+            align-items: center;
+            margin: 0;
+            & h1 {
+                margin: 30px 0 0 0;
+            }
+            & p {
+                color: #ebd9fb;
+                width: 20rem;
+                font-size: 1.90rem;
+            }
+        
+            & button{
+                height: 3rem;
+                width: 15rem;
+                margin-top: 0;
+                
+                background-color: rgb(255, 0, 98);
+                color: #ebd9fb;
+                border: none;
+                a{
+                    font-size: 1.30rem;
+                    text-decoration: none;
+                    color: #ebd9fb;
+                }
+            }
+        }  
     }
 }
 

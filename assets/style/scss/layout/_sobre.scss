@@ -86,3 +86,60 @@
         }
     }  
 }
+
+@media screen and (max-width: 900px){
+  #sobre{
+    margin-left: 0;
+    &_texto{
+        p{
+            font-size: 1rem;
+            width: 80%;
+        }
+    }
+
+    .entries {
+      &:before {
+        left: 15%;
+      }
+      .entry {
+        width: calc(70% - 10px);
+        &:not(:first-child) {
+          margin-top:-60px;
+        }
+        .title {
+          font-size: 2rem;
+          &:before {
+            content: '';
+            top:50%;
+            transform:translateY(-50%);
+            right:-21%;
+            z-index:1000;
+          }
+          &.big:before {
+            width:24px;
+            height:24px;
+            transform:translate(-37%,-180%);
+          }
+        }
+        .body {
+          p {
+            line-height:2rem;
+            font-size: 1rem;
+          }
+        }
+        &:nth-child(1n) {
+          text-align: left;
+          float: right;
+          .title {
+            &:before {
+              left: -21%;
+            }
+            &.big:before {
+              transform:translate(-8px,-50%);
+            }
+          }
+        }
+      }
+  }
+  }
+}

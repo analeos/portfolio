@@ -1,4 +1,4 @@
-#portifolio{
+#portfolio{
     height: 90vh;
     display: flex;
     color: #ebd9fb;
@@ -43,4 +43,13 @@
             }
         } 
     } 
+}
+@media screen and (max-width: 900px){
+    #portfolio{
+        margin-left: 0;
+        &_projetos{
+            justify-content: center;
+        }
+
+    }
 }

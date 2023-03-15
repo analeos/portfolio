@@ -44,3 +44,19 @@ footer{
         margin-left: 10rem;
     }
 }
+
+@media screen and (max-width: 992px){
+    #contato{
+        margin-left: 0rem;
+        &-mensagem{
+            margin: 2rem;
+            h1{
+                text-align: center;
+            }
+            p{
+                font-size: 1rem;
+                width: 80%;
+            }
+        }
+    }
+}
