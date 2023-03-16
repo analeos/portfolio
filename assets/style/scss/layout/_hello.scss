@@ -1,16 +1,11 @@
-body {
-    background-color: #09051a;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+
 
 #apresentacao {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
     text-align: end;
 
     & img {
@@ -54,6 +49,8 @@ body {
 
 @media screen and (max-width: 900px) {
     #apresentacao {
+        flex-direction: column;
+        height: auto;
 
         text-align: center;
         & img {
