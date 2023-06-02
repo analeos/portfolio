@@ -7,8 +7,8 @@
     &_texto{
         display: flex;
         flex-direction: column;
-        p{
-            font-size: 1.5rem;
+        h1{
+            font-size: 2rem;
             width: 80%;
         }
     }
@@ -19,7 +19,6 @@
         left:-5px;
         min-height:30rem;
         margin:0;
-        font-family: 'Droid Sans', sans-serif;
         &:before {
           content: '';
           position: absolute;
@@ -40,7 +39,7 @@
             margin-top:-60px;
           }
           .title {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
             margin-bottom:12px;
             position: relative;
@@ -68,7 +67,10 @@
             color:#ebd9fb;
             p {
               line-height:2rem;
-              font-size: 1.3rem;
+              font-size: 1rem;
+              a{
+                color: currentColor;
+              }
             }
           }
           &:nth-child(2n) {

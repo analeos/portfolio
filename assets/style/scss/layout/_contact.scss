@@ -1,7 +1,10 @@
 #contato{
-    height: 60vh;
     color: #ebd9fb;
     margin-left: 10rem;
+    h1{
+        font-size: 2rem;
+        padding: 5rem 0 0 0;
+    }
     &-mensagem{
         display: flex;
         flex-direction: column;
@@ -39,7 +42,7 @@ footer{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 10rem;
+    padding: 5rem 0;
     p{
         margin-left: 10rem;
     }
@@ -50,7 +53,7 @@ footer{
         margin-left: 0rem;
         &-mensagem{
             margin: 2rem;
-            h1{
+            h2{
                 text-align: center;
             }
             p{
