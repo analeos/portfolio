@@ -1,11 +1,15 @@
-// BASE
+// GENERAL
+@import 'general/fontstyle';
+@import 'general/colors';
+@import 'general/current';
 
 // LAYOUT
 @import 'layout/hello';
-@import 'layout/sobre';
-@import 'layout/projetos';
-@import 'layout/contato';
+@import 'layout/about';
+@import 'layout/projets';
+@import 'layout/contact';
 @import 'layout/header';
+
 
 // FUNCTION
 @import 'function/blob';

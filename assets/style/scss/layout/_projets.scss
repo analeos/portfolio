@@ -1,9 +1,12 @@
-#portifolio{
-    height: 90vh;
+#portfolio{
     display: flex;
     color: #ebd9fb;
     margin-left: 10rem;
     flex-direction: column;
+    h1{
+        font-size: 2rem;
+        padding: 5rem 0 2rem 0;
+    }
     &_projetos{
         display: flex;
         // justify-content: space-around;
@@ -43,4 +46,13 @@
             }
         } 
     } 
+}
+@media screen and (max-width: 900px){
+    #portfolio{
+        margin-left: 0;
+        &_projetos{
+            justify-content: center;
+        }
+
+    }
 }
